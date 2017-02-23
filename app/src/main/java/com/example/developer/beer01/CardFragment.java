@@ -17,6 +17,7 @@ public class CardFragment extends Fragment {
 
     private CardView cardView;
     private String setText;
+    private String A;
 
     public static Fragment getInstance(int position) {
         CardFragment f = new CardFragment();
